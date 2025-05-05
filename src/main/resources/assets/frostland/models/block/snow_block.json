@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "frostland:block/snow",
+    "down": "frostland:block/snow",
+    "up": "frostland:block/unnamed",
+    "north": "frostland:block/snow",
+    "east": "frostland:block/snow",
+    "south": "frostland:block/snow",
+    "west": "frostland:block/snow",
     "particle": "frostland:block/snow"
   },
   "render_type": "solid"

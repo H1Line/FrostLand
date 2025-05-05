@@ -56,6 +56,53 @@
           "src/main/java/frostland/item/SpruceWoodItem.java"
         ]
       }
+    },
+    {
+      "name": "SnowySpruceLogLoot",
+      "type": "loottable",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowy_spruce_log_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/frostland/loot_tables/blocks/snowy_spruce_log.json"
+        ]
+      }
+    },
+    {
+      "name": "SnowySpruceLeaves",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowy_spruce_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/frostland/models/item/snowy_spruce_leaves.json",
+          "src/main/resources/assets/frostland/models/block/snowy_spruce_leaves.json",
+          "src/main/resources/assets/frostland/blockstates/snowy_spruce_leaves.json",
+          "src/main/java/frostland/block/SnowySpruceLeavesBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "FrozenForezt",
+      "type": "biome",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frozen_forezt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/frostland/worldgen/configured_feature/frozen_forezt_tree.json",
+          "src/main/resources/data/frostland/worldgen/biome/frozen_forezt.json",
+          "src/main/resources/data/frostland/worldgen/placed_feature/frozen_forezt_tree.json",
+          "src/main/java/frostland/world/features/treedecorators/FrozenForeztTrunkDecorator.java",
+          "src/main/java/frostland/world/features/treedecorators/FrozenForeztLeaveDecorator.java",
+          "src/main/java/frostland/world/features/treedecorators/FrozenForeztFruitDecorator.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -64,14 +111,18 @@
     "ru_ru": {
       "block.frostland.snow_block": "Твёрдый снег",
       "item_group.frostland.frost_item_tab": "Вкладка разработчиков Frostland",
-      "item.frostland.spruce_wood": "Spruce Wood",
-      "block.frostland.snowy_spruce_log": "Snowy Spruce Log"
+      "item.frostland.spruce_wood": "Еловая древесина",
+      "block.frostland.snowy_spruce_log": "Бревно заснеженной ели",
+      "biome.frostland.frozen_forezt": "Промёрзший лес",
+      "block.frostland.snowy_spruce_leaves": "Листва заснеженной ели"
     },
     "en_us": {
       "block.frostland.snow_block": "Hard Snow",
       "item_group.frostland.frost_item_tab": "Frostland Dev. Tab",
       "item.frostland.spruce_wood": "Spruce Wood",
-      "block.frostland.snowy_spruce_log": "Snowy Spruce Log"
+      "block.frostland.snowy_spruce_log": "Snowy Spruce Log",
+      "biome.frostland.frozen_forezt": "Frozen Forest",
+      "block.frostland.snowy_spruce_leaves": "Snowy Spruce Leaves"
     }
   },
   "foldersRoot": {
