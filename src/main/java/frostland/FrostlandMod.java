@@ -38,6 +38,10 @@ import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
+import frostland.init.FrostlandModTabs;
+import frostland.init.FrostlandModItems;
+import frostland.init.FrostlandModBlocks;
+
 @Mod("frostland")
 public class FrostlandMod {
 	public static final Logger LOGGER = LogManager.getLogger(FrostlandMod.class);
@@ -46,6 +50,12 @@ public class FrostlandMod {
 	public FrostlandMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		FrostlandModBlocks.REGISTRY.register(bus);
+
+		FrostlandModItems.REGISTRY.register(bus);
+
+		FrostlandModTabs.REGISTRY.register(bus);
 
 	}
 

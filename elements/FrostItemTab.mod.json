@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "Frostland Dev. Tab",
+    "icon": {
+      "value": "Items.POWDER_SNOW_BUCKET"
+    },
+    "showSearch": false
+  }
+}

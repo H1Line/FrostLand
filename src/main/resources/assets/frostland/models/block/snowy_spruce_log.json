@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "frostland:block/spruce_log_top",
+    "up": "frostland:block/spruce_log_top",
+    "north": "frostland:block/spruce_log",
+    "east": "frostland:block/spruce_log",
+    "south": "frostland:block/spruce_log",
+    "west": "frostland:block/spruce_log",
+    "particle": "frostland:block/spruce_log_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "frostland:block/snow",
+    "particle": "frostland:block/snow"
+  },
+  "render_type": "solid"
+}
