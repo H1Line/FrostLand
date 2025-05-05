@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "frostland:block/tent"
+    },
+    "facing=east": {
+      "model": "frostland:block/tent",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "frostland:block/tent",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "frostland:block/tent",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 69,
+  "_type": "tab",
+  "definition": {
+    "name": "Frost Land Items",
+    "icon": {
+      "value": "Items.POWDER_SNOW_BUCKET"
+    },
+    "showSearch": true
+  }
+}
