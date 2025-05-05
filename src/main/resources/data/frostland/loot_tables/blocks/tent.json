@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "frostland:blocks/tent",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "frostland:tent"
+        }
+      ]
+    }
+  ]
+}
