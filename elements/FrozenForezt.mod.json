@@ -67,10 +67,10 @@
       "min": -1.0,
       "max": 1.0
     },
-    "treesPerChunk": 1,
-    "vanillaTreeType": "Big trees",
+    "treesPerChunk": 3,
+    "vanillaTreeType": "Mega spruce trees",
     "treeType": 1,
-    "minHeight": 5,
+    "minHeight": 1,
     "treeStem": {
       "value": "CUSTOM:SnowySpruceLog"
     },
